@@ -1,0 +1,174 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 650px;
+  background: url("blurbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  margin-top: 30px;
+  margin-left: 120px;
+}
+
+.part {
+  width: 50%;
+  height: 645px;
+  position: relative;
+  top: 2px;
+  left: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.wrapper {
+  width: 50%;
+  margin: 0;
+  padding: 70px;
+}
+
+.country select {
+  font-size: 16px;
+  border: none;
+  color: #888ea8;
+  background: transparent;
+}
+
+.country {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  gap: 4px;
+  font-size: 16px;
+  padding: 5px;
+  position: relative;
+  top: 10px;
+  left: 380px;
+  color: #888ea8;
+  border: 1px solid #e0e6ed;
+  border-radius: 6px;
+  width: 90px;
+  background-color: white;
+}
+
+.wrapper h1 {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 49.1px;
+  text-align: left;
+  color: #4361ee;
+}
+
+.wrapper p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.82px;
+  text-align: left;
+  color: #888ea8;
+  padding-bottom: 20px;
+}
+
+.input_flex {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.wrapper .input_box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 10px 0;
+  padding-bottom: 40px;
+}
+
+.input_box input {
+  width: 100%;
+  height: 38px;
+  border-radius: 6px;
+  border: 1px solid #e0e6ed;
+  padding: 10px;
+  padding-left: 40px;
+}
+
+.input_box input::placeholder {
+  color: #888ea8;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.1px;
+  text-align: left;
+}
+
+.input_box .icon {
+  position: absolute;
+  left: 15px;
+  top: 34px;
+  font-size: 16px;
+}
+
+.subscribe {
+  padding-bottom: 20px;
+}
+
+.subscribe span {
+  color: #888ea8;
+  padding-left: 10px;
+  line-height: 3;
+}
+
+.subscribe input {
+  color: #e0e6ed;
+  border: 1px solid #e0e6ed;
+}
+
+.wrapper button {
+  width: 100%;
+  height: 38px;
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(90deg, #ef1262 0%, #4361ee 100%);
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.1px;
+  cursor: pointer;
+}
+
+.or {
+  padding: 30px 0px;
+}
+
+.or div {
+  position: relative;
+  left: 45%;
+  top: 10px;
+  width: 50px;
+  text-align: center;
+  background-color: white;
+  color: #888ea8;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
+  padding-top: 10px;
+}
+
+.signin_link {
+  padding: 20px 95px;
+}
+
+.signup {
+  padding-top: 10px;
+  color: blue;
+}
+
+.copyright {
+  padding-top: 5px;
+  margin-left: 70px;
+}
